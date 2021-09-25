@@ -51,3 +51,15 @@ CREATE TABLE IF NOT EXISTS genus(
   updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'Last Update',
   name varchar(255) NOT NULL COMMENT 'Genus Name'
 ) default charset utf8 COMMENT '';
+
+
+  insert into familys(name) values("Phrymaceae"); 
+  insert into familys(name) values("Orobanchaceae"); 
+  insert into familys(name) values("Onagraceae"); 
+  insert into familys(name) values("Nyctaginaceae"); 
+  insert into familys(name) values("Montiaceae");
+  insert into familys(name) values("Melanthiaceae"); 
+  insert into familys(name) values("Malvaceae"); 
+  insert into familys(name) values("Lythraceae"); 
+  insert into familys(name) values("Loasaceae"); 
+  insert into familys(name) values("Linaceae");
